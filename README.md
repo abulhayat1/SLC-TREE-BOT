@@ -1,32 +1,53 @@
-# SLC-TREE-BOT
+# SLC TREE BOT
 
------------------1-----------------------
-npm i
+Discord js bot to host forest trees
 
------------------- 2 ---------------------
-Set DISCORD_TOKEN with your BOT TOKEN - (file: .env)
+## Installation
 
--------------------3-----------------------
-uncomment require("dotenv").config(); if you are in local machine - (file: index.js)
+Use the package manager [npm ] to install bot.
 
--------------------4------------------------
-create new roles in your server and then set them to the role variables - (file: index.js)
-//tree_role_id
-const tree_role_10_30 = "709707729329193020";
-const tree_role_35_55 = "709707938213789766";
-const tree_role_60_90 = "709708100202135592";
-const tree_role_95_120 = "709708335800254534";
-const tree_role_125_180 = "709708477144105021";
-const tree_role_no_role = "725171650374664266";
+```bash
+npm install
+```
+
+## config
+
+1. Set DISCORD_TOKEN with your BOT TOKEN - (file: .env)
+2. uncomment require("dotenv").config(); if you are in local machine - (file: index.js)
+
+3. create new roles in your server and then set them to the role variables - (file: index.js)
+
+```bash
+const tree_role_10_30 = "roleid";
+const tree_role_35_55 = "roleid";
+const tree_role_60_90 = "roleid";
+const tree_role_95_120 = "roleid";
+const tree_role_125_180 = "roleid";
+const tree_role_no_role = "roleid";
 //global ping time role
-const default_tree_Ping = "665631792795222019";
-//host channel
-const submitted_channel_id = "660569187105767424";
+const default_tree_Ping = "roleid";
+```
 
-------------------5---------------------------------------------
-file:index.js
+4. create a new channel to host your tree copy the id and setup these two lines
+
+```bash
+const submitted_channel_id = "enter the id of the channel you want to host your tree";
 
 this.client.channels.cache.get('enter the id of the channel you want to host your tree').send(
+```
 
--------------------4 ----------------------
+## Start the Bot
+
+```bash
 node index.js
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+x
