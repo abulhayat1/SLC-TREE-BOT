@@ -1,0 +1,18 @@
+[
+	{
+		"text": "With ?host command",
+		"type": "PLAYING"
+	},
+  	{
+		"text": "over the #forest",
+		"type": "WATCHING"
+	},
+	{
+		"text": "you eat cake 🧁",
+		"type": "WATCHING"
+	},
+	{
+		"text": "you read 📚",
+		"type": "WATCHING"
+	}
+]
