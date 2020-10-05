@@ -1,10 +1,10 @@
 [
-	{
-		"text": "With ?host command",
-		"type": "PLAYING"
-	},
-  	{
-		"text": "🎉Happy 1 year anniversary🎉",
-		"type": "WATCHING"
-	}
+  {
+    "text": "With ?host command",
+    "type": "PLAYING"
+  },
+  {
+    "text": "🎉Happy 1 year anniversary🎉",
+    "type": "WATCHING"
+  }
 ]
