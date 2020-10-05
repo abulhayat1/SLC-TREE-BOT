@@ -20,7 +20,7 @@ DISCORD_TOKEN=YOUR BOT TOKEN
 
 2. uncomment `require("dotenv").config();` if you are in local machine - (file: index.js)
 
-3. create new roles in your server and then set them to the role variables - (file: index.js)
+3. create new roles in your server and then set the roles id to  role variables - (file: index.js)
 
 ```bash
 const tree_role_10_30 = "roleid";
@@ -33,7 +33,7 @@ const tree_role_no_role = "roleid";
 const default_tree_Ping = "roleid";
 ```
 
-4. create a new channel to host your tree copy the id and setup these two lines
+4. create a new channel to host your tree , copy the channel id and setup these two lines
 
 ```bash
 const submitted_channel_id = "enter the id of the channel you want to host your tree";
