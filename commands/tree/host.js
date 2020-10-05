@@ -124,7 +124,7 @@ module.exports = class SayCommand extends Command {
 
   //tst
 
-
+  code = code.replace(/[^a-z0-9]/gi,'');  
 
   //find tree role from input
   let tree_role_duaration = tree_roles(duration);
@@ -140,14 +140,14 @@ module.exports = class SayCommand extends Command {
 
 			{ embed: {
 			  color: 'RANDOM',
-        title: '\u200b**'+ `${m2h(duration)}` + ":deciduous_tree: " + `${tree_name}` + '**',
+        title: `${m2h(duration)} :deciduous_tree: ${tree_name}\n` + `\n :point_down:  tap on the code to copy`,
 				author: {
 			  name: message.member.user.tag,
 			  icon_url: message.author.displayAvatarURL(),
 				},
-				description: '➡️ join me through the link or code in the forest app.',
+				description:`${code}` ,
         thumbnail: {
-			  url: 'https://i.imgur.com/J6eMkG3.png',
+			  url: 'https://i.imgur.com/Zhedowe.png',
 				},
 				fields: [
 			  {

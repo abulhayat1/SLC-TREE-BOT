@@ -22,6 +22,7 @@ client.registry
 	.registerDefaultTypes()
 	.registerGroups([
 		['tree', 'event related commands'],
+    ['util', 'for admins/helpers/mods'],
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands({
@@ -43,6 +44,8 @@ client.once('ready', () => {
 
 
 });
+
+
 
 client.on('error', console.error);
 
