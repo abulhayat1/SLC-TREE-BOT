@@ -18,7 +18,7 @@ npm install
 DISCORD_TOKEN=YOUR BOT TOKEN
 ```
 
-2. uncomment `bashrequire("dotenv").config();` if you are in local machine - (file: index.js)
+2. uncomment `require("dotenv").config();` if you are in local machine - (file: index.js)
 
 3. create new roles in your server and then set them to the role variables - (file: index.js)
 
